@@ -7,8 +7,8 @@ document.getElementsByClassName('second');
 // Select a list item with a class of third, but only the list item inside of the ol tag.
 document.querySelector("ol .third");
 // Give the section with an id of container the text “Hello!”.
-// let divGreeting = document.querySelector('#container');
-// divGreeting.innerText = 'Hello';
+let divGreeting = document.querySelector('#container');
+divGreeting.innerText = 'Hello';
 // Add the class main to the div with a class of footer.
 let footer = document.querySelector('.footer');
 footer.classList.add("main");
